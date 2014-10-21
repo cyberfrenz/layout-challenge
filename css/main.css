@@ -14,6 +14,39 @@ body{
 	opacity: 0.9;
 }
 
+@media (max-width: 991px) {
+	body {
+		background-image: none;
+		margin: 0px;
+		font-size: 16px;
+	}
+
+	h5 {
+		display: none;
+	}
+
+	#container-fluid {
+		margin-bottom: 0px;
+		margin-top: 0px; 
+	}
+}
+
+@media (min-width: 992px) {
+	body {
+		font-size: 18px;
+	}
+
+	#container-fluid {
+		margin: 20px, 20px, 20px, 30%; 
+	}
+
+	nav {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
+
 a {
 	text-decoration: none;
 }
@@ -95,3 +128,24 @@ footer {
 	text-align: right;
 	font-size: 80%; 
 }
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li {
+	 list-style-type: none;
+	 display: inline-block;
+	 margin-right: 1em;
+}
+
+nav a:link {
+	color: #55E;
+}
+
+nav a:hover {
+	color: #00E;
+}
+
+
